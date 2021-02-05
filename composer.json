@@ -1,0 +1,34 @@
+{
+  "name": "opxcore/app-bootstrapper-interface",
+  "description": "The OpxCore app bootstrapper interface.",
+  "homepage": "https://opxcore.com",
+  "type": "library",
+  "keywords": [
+    "opxcore",
+    "app",
+    "bootstrapper",
+    "interface"
+  ],
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/opxcore/app-bootstrapper-interface",
+    "issues": "https://github.com/opxcore/app-bootstrapper-interface/issues"
+  },
+  "authors": [
+    {
+      "name": "Lozovoy Vyacheslav",
+      "email": "opxcore@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "opxcore/app-interface": "^1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "OpxCore\\App\\Interfaces\\": "src/"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
