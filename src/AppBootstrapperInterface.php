@@ -17,14 +17,7 @@ interface AppBootstrapperInterface
      *
      * @param AppInterface $app
      *
-     * @return  void
+     * @return  array|null Instances to be registered in application container.
      */
-    public function bootstrap(AppInterface $app): void;
-
-    /**
-     * Get key to be used to instance in container. If null returned no instancing needed.
-     *
-     * @return  string|null
-     */
-    public function getKeyForInstance(): ?string;
+    public function bootstrap(AppInterface $app): ?array;
 }
